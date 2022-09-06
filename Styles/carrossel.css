@@ -1,4 +1,4 @@
-.carrossel__titulo {
+.carrosel__titulo {
   color: var(--laranja);
   background-color: var(--branco);
   text-align: center;
@@ -46,7 +46,7 @@
   color: var(--azul);
   font-size: 1.8rem;
   font-weight: 700;
-  margin: 0.5rem 0;
+  margin: 0.5em 0;
 }
 .descrição__texto {
   font-size: 1.4rem;
