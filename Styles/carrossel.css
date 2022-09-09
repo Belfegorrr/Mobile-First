@@ -61,3 +61,45 @@
 .botoes__item {
   margin: 0 0.5em;
 }
+@media screen and (min-width: 1024px) {
+  .carrosel__titulo {
+    font-size: 2.6rem;
+  }
+  .swiper-pagination {
+    margin: 2em 0 3em 0;
+  }
+  .swiper {
+    width: 60%;
+  }
+  .card {
+    width: 40%;
+    margin: 2em auto;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .carrosel__container {
+    display: flex;
+    align-items: center;
+    margin: 0 20vw 3em 20vw;
+  }
+  .swiper-pagination {
+    margin: 1em 0;
+  }
+  .swiper {
+    width: 50%;
+  }
+  .descrição__titulo {
+    font-size: 3.2rem;
+  }
+  .descrição__texto {
+    font-size: 1.6rem;
+  }
+  .descrição {
+    margin-right: 2em;
+  }
+  .card {
+    width: 60%;
+    margin-left: 3em;
+  }
+}
